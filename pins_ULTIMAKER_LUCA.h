@@ -15,7 +15,7 @@
 #define X_ENABLE_PIN 41
 
 #define X_MIN_PIN 22    // used
-#define X_MAX_PIN -1    // unused, was 24, NOW ASSIGNED TO HOT BED!!!
+#define X_MAX_PIN -1    // unused, was 24
 
 #define Y_STEP_PIN 25
 #define Y_DIR_PIN 23
@@ -28,10 +28,10 @@
 #define Z_DIR_PIN 39
 #define Z_ENABLE_PIN 35
 
-#define Z_MIN_PIN -1    // unused, was 30
+#define Z_MIN_PIN -1    // unused, was 30, NOW ASSIGNED TO HOT BED!!!
 #define Z_MAX_PIN 32    // used
 
-#define HEATER_BED_PIN 24    // was 4, now connected to x max
+#define HEATER_BED_PIN 30    // was 4, now connected to z min
 #define TEMP_BED_PIN 10
 
 #define HEATER_0_PIN  3
